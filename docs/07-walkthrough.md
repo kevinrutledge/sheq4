@@ -214,3 +214,7 @@ Output:
 ```
 3
 ```
+
+---
+
+**Need more clarification?** [Resources](08-resources.md)

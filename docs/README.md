@@ -11,6 +11,7 @@ How SHEQ4 works with C as a host language.
 5. **[Parsing](05-parsing.md)** — Tokenization and tree building
 6. **[Evaluation](06-evaluation.md)** — Interpreter and primitives
 7. **[Complete Walkthrough](07-walkthrough.md)** — Full trace of `{{lambda (x) : {+ x 1} 2}`
+8. **[Resources](08-resources.md)** — External references for clarification
 
 ## Diagrams
 
@@ -45,3 +46,5 @@ The markdown docs reference these images directly.
 **Evaluation** covers interpretation. Walking the AST, applying closures, calling primitives. Environment extension for lexical scoping.
 
 **Walkthrough** traces `{{lambda (x) : {+ x 1} 2}` from start to finish. Every step, every function call, every pointer chase. See how the pieces connect.
+
+**Resources** provides external references if the docs aren't clear. Focused links to tutorials and man pages for C syntax, patterns, and concepts.
