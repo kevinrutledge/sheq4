@@ -49,3 +49,7 @@ int top_interp(const char *src) {
 ```
 
 From the previous assignment, you already wrote this. The interesting architectural choices are how each stage is structured internally and how data flows between them. The arena handles all allocations except for the final serialized string, which uses malloc because it needs to outlive the arena cleanup. Each stage either succeeds with a valid pointer or fails with NULL, making error propagation explicit.
+
+---
+
+**Next:** [C Basics](02-c-basics.md)

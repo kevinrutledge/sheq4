@@ -184,3 +184,7 @@ The parser builds AST nodes. The interpreter builds Values. They're separate pha
 I could combine them. Parse and evaluate at the same time. But that couples parsing and evaluation tightly. I thought about this early on and realized if you want to add optimization passes later, you need the AST as a separate structure you can walk and transform before interpreting.
 
 I kept them separate because it makes the code easier to work with. The parser handles syntax. The interpreter handles semantics. Each phase has one job and does it without worrying about the other.
+
+---
+
+**Next:** [Complete Walkthrough](07-walkthrough.md)

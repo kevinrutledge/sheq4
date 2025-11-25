@@ -2,6 +2,10 @@
 
 A tree-walking interpreter for SHEQ4, a higher-order functional language with lexical scoping. Written in C.
 
+## Documentation
+
+See `docs/` for full implementation details. Covers the C implementation, memory management, parsing, and evaluation with diagrams. Start with [Overview](docs/01-overview.md).
+
 ## Getting Started
 
 Clone the repo, then create your `.env` file:
@@ -99,3 +103,4 @@ Lambdas capture their environment at definition time:
 - `Makefile` — build configuration
 - `deploy.sh` — pushes code to unix server
 - `.env` — your local credentials (not tracked by git)
+- `docs/` — implementation documentation

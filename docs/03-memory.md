@@ -98,3 +98,7 @@ Walking through a complete run shows how this all connects. When you run `./sheq
 The arena gets created with 1MB. Tokenization allocates a tokens array. Parsing allocates AST nodes. The top environment creation allocates bindings. Interpretation allocates Values. Serialization uses a static buffer and `strdup`. After printing, the strdup'd string gets freed and the arena gets destroyed.
 
 One malloc at the start, one free at the end. Everything in between comes from the arena.
+
+---
+
+**Next:** [Data Structures](04-data-structures.md)

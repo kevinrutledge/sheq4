@@ -246,3 +246,7 @@ ASTNode *num = make_num(arena, 17);
 ```
 
 Now `num` points to a node in the arena. Multiple places can hold pointers to the same node. That's how trees get built.
+
+---
+
+**Next:** [Memory Management](03-memory.md)
