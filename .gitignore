@@ -1,0 +1,4 @@
+.env
+sheq4
+*.o
+.DS_Store
