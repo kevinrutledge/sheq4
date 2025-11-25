@@ -27,7 +27,7 @@ Replace `unixN` with whichever server you use (unix1 through unix5). Set the pat
 Example:
 
 ```dotenv
-UNIX_USER=my_username
+UNIX_USER=my_calpoly_username
 UNIX_HOST=unix3.csc.calpoly.edu
 UNIX_PATH=csc_430/sheq4
 ```
@@ -50,7 +50,7 @@ ssh your_username@unixN.csc.calpoly.edu "mkdir -p ~/path/to/your/project"
 ./deploy.sh
 ```
 
-This copies `sheq4.c` and `Makefile` to your unix server.
+This copies `sheq4.c`, `Makefile`, and `test.sh` to your unix server.
 
 ## Building and Testing
 
