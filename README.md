@@ -27,7 +27,7 @@ Replace `unixN` with whichever server you use (unix1 through unix5). Set the pat
 Example:
 
 ```dotenv
-UNIX_USER=my_calpoly_username
+UNIX_USER=krutledg
 UNIX_HOST=unix3.csc.calpoly.edu
 UNIX_PATH=csc_430/sheq4
 ```
@@ -104,3 +104,4 @@ Lambdas capture their environment at definition time:
 - `deploy.sh` — pushes code to unix server
 - `.env` — your local credentials (not tracked by git)
 - `docs/` — implementation documentation
+- `presentation/` — slides and figures for class presentation
